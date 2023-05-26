@@ -4,7 +4,7 @@
 
 Software de gestão voltado para empresas de varejo no ramo de vestuário, seu objetivo é facilitar os processos rotineiros da empresa, auxiliando no controle e monitoramento de modo geral, ajudando os gestores em suas decisões e agilizando os procedimentos fundamentais da empresa.
 
-Foi feito principalmente em react.js e node.js, mas para a distribuição o projeto foi integrado ao electron.js
+Foi desenvolvido principalmente em react.js e node.js, mas para a distribuição o projeto foi integrado ao electron.js
 
 **Como usar**
 
@@ -32,11 +32,9 @@ Estrutura de diretórios:
 |
 |-- /dist (saída do empacotamento do aplicativo em electron)
 |
-|-- /public (contém o index.html)
+|-- /public (contém o index.html ou a build do frontend)
 |
 |-- /scripts (scripts auxiliares)
 |
 |-- /server (arquivos do node com express)
-|
-|-- /src (arquivos do react (neste caso a build também está aqui))
 ```
